@@ -1,10 +1,8 @@
 # About
-Chatbot is a computer program which conducts a conversation in a human-like way. This project implements chatbot which 
-tries to answer users questions as customer support agent. Following customer support chatbots were implemented: 
-[AppleSupport](https://twitter.com/AppleSupport), [AmazonHelp](https://twitter.com/AmazonHelp), 
-[Uber_Support](https://twitter.com/Uber_Support), [Delta](https://twitter.com/Delta) and 
-[SpotifyCares](https://twitter.com/SpotifyCares). Chatbots were trained on publicly available conversations between 
-customer supports and users on Twitter.
+Develop a chatbot that can answer "how-to" questions related to four Customer Data
+Platforms (CDPs): Segment, mParticle, Lytics, and Zeotap. The chatbot should be able
+to extract relevant information from the official documentation of these CDPs to guide
+users on how to perform tasks or achieve specific outcomes within each platform.
 
 Chatbot is implemented as sequence to sequence deep learning model with attention. Project is mostly based on 
 [Bahdanau et al. 2014](https://arxiv.org/abs/1409.0473), [Luong et al. 2015.](https://arxiv.org/abs/1508.04025) 
